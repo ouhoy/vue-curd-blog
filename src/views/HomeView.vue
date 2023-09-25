@@ -3,6 +3,7 @@ import {ref} from 'vue';
 
 import PostList from '../components/PostList.vue'
 import getPosts from "../composables/getPosts";
+import Spinner from "@/components/Spinner.vue";
 
 
 const {posts, error, load} = getPosts();
@@ -16,7 +17,9 @@ load()
     <div v-if="posts.length">
       <PostList :posts="posts"/>
     </div>
-    <div v-else>Loading</div>
+    <div v-else>
+      <Spinner/>
+    </div>
 
   </div>
 </template>
