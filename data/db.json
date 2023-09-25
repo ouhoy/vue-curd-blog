@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "The Future of Artificial Intelligence",
+      "body": "Artificial Intelligence (AI) is advancing rapidly, with applications in healthcare, finance, and more. This blog post explores the latest trends and what the future holds for AI.",
+      "tags": [
+        "AI",
+        "Machine Learning",
+        "Technology Trends"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "The Rise of Quantum Computing",
+      "body": "Quantum computing is poised to revolutionize the world of computing. Learn about the basics of quantum computing and its potential to solve complex problems that are beyond the reach of classical computers.",
+      "tags": [
+        "Quantum Computing",
+        "Computing",
+        "Technology Advancements"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Blockchain Technology: Beyond Cryptocurrency",
+      "body": "Blockchain technology is not just about cryptocurrencies. Discover the various applications of blockchain, such as supply chain management, voting systems, and more.",
+      "tags": [
+        "Blockchain",
+        "Cryptocurrency",
+        "Supply Chain",
+        "Technology Applications",
+        "Technology Trends"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "The Impact of 5G on IoT",
+      "body": "The rollout of 5G networks is set to supercharge the Internet of Things (IoT). Explore how 5G connectivity will enable faster data transfer and more connected devices.",
+      "tags": [
+        "5G",
+        "IoT",
+        "Connectivity",
+        "Wireless Technology"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cybersecurity Best Practices for Businesses",
+      "body": "With the increasing threat of cyberattacks, businesses must prioritize cybersecurity. This blog post offers tips and best practices to safeguard your company's digital assets.",
+      "tags": [
+        "Cybersecurity",
+        "Security Practices",
+        "Digital Protection"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Augmented Reality: Transforming Industries",
+      "body": "Augmented Reality (AR) is changing the way industries like gaming, healthcare, and education operate. Learn about the applications of AR and its potential to reshape our world.",
+      "tags": [
+        "Augmented Reality",
+        "AR Applications",
+        "Industry Transformation"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "The Role of AI in Healthcare",
+      "body": "AI is playing a significant role in transforming healthcare. This blog post discusses the applications of AI in diagnosis, treatment, and healthcare management.",
+      "tags": [
+        "AI",
+        "Healthcare",
+        "Medical Technology"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Quantum Computing Breakthroughs",
+      "body": "Recent breakthroughs in quantum computing have brought us closer to practical quantum applications. Explore the latest advancements in this field.",
+      "tags": [
+        "Quantum Computing",
+        "Technology Advancements"
+      ]
+    }
+  ]
+}
