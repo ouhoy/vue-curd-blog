@@ -2,12 +2,12 @@
 
 import SinglePost from "@/components/SinglePost.vue";
 
-interface Post {
-  title: string,
-  body: string,
-  id: number
+ interface Post {
+    title: string,
+    body: string,
+    id: number,
+    tags: string[]
 }
-
 const {posts} = defineProps<{ posts: Post[] }>()
 
 
