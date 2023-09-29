@@ -28,7 +28,7 @@ const snippet = computed(() => {
     </router-link>
 
     <p>{{ snippet }}</p>
-    <span v-for="tag in post.tags" :key="tag">#{{ tag }} </span>
+    <span class="pill" v-for="tag in post.tags" :key="tag">#{{ tag }} </span>
   </div>
 </template>
 

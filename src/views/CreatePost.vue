@@ -2,6 +2,7 @@
 
 
 import {ref} from "vue";
+import {useRouter} from "vue-router";
 
 interface Post {
   title: string,
@@ -9,6 +10,8 @@ interface Post {
   id: number,
   tags: string[]
 }
+
+const router = useRouter();
 
 const title = ref("");
 const body = ref("");
@@ -53,6 +56,9 @@ async function handleSubmit() {
     headers: {"Content-Type": "application/json"},
     body: JSON.stringify(post),
   })
+
+  await router.push({name: "Home"});
+
 
 }
 

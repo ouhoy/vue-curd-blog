@@ -81,6 +81,12 @@
         "Quantum Computing",
         "Technology Advancements"
       ]
+    },
+    {
+      "title": "New post ",
+      "body": "The body of the new post",
+      "tags": [],
+      "id": 9
     }
   ]
 }
