@@ -12,7 +12,6 @@ interface Post {
 const {post} = defineProps<{ post: Post }>();
 
 
-
 const snippet = computed(() => {
   return post.body.substring(0, 100) + "..."
 })
@@ -21,14 +20,19 @@ const snippet = computed(() => {
 
 <template>
   <div class="post">
-    <router-link :to="{name: 'Details', params: {id: post.id} }" >
+    <router-link :to="{name: 'Details', params: {id: post.id} }">
 
 
       <h3>{{ post.title }}</h3>
     </router-link>
 
     <p>{{ snippet }}</p>
-    <span class="pill" v-for="tag in post.tags" :key="tag">#{{ tag }} </span>
+
+    <span class="pill" v-for="tag in post.tags" :key="tag">
+    <router-link class="pill" :to="{name: 'Tag', params: {tag: tag}}">
+      #{{ tag }}
+</router-link>
+    </span>
   </div>
 </template>
 

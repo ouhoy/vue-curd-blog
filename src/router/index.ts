@@ -13,15 +13,18 @@ const routes: Array<RouteRecordRaw> = [
         // route level code-splitting
         // this generates a separate chunk (about.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ '../views/Details.vue')
+        component: () => import(/* webpackChunkName: "Details" */ '../views/Details.vue')
     },
+    {
+        path: '/tag/:tag',
+        name: 'Tag',
+        component: () => import(/* webpackChunkName: "Tag" */ '../views/Tag.vue')
+    }
+    ,
     {
         path: '/create',
         name: 'CreatePost',
-        // route level code-splitting
-        // this generates a separate chunk (about.[hash].js) for this route
-        // which is lazy-loaded when the route is visited.
-        component: () => import(/* webpackChunkName: "about" */ '../views/CreatePost.vue')
+        component: () => import(/* webpackChunkName: "CreatePost" */ '../views/CreatePost.vue')
     }
 ]
 
