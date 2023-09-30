@@ -4,7 +4,7 @@ import {ref} from 'vue';
 import PostList from '../components/PostList.vue'
 import getPosts from "../composables/getPosts";
 import Spinner from "@/components/Spinner.vue";
-import TagClould from "@/components/TagClould.vue";
+import TagClould from "@/components/TagCloud.vue";
 
 
 const {posts, error, load} = getPosts();
