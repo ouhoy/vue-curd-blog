@@ -5,6 +5,7 @@ import getPosts from "@/composables/getPosts";
 import {computed, onMounted, onUpdated, ref} from "vue";
 import PostList from "@/components/PostList.vue";
 import {useRoute} from "vue-router";
+import TagClould from "@/components/TagClould.vue";
 
 const route = useRoute()
 const tag = route.params.tag;
@@ -24,6 +25,7 @@ onUpdated(() => {
   <div v-if="error"><p>{{ error }}</p></div>
   <div v-if="postsWithTag.length">
     <PostList :posts="postsWithTag"/>
+    <TagClould :posts="posts"/>
   </div>
   <div v-else>
     <Spinner/>
